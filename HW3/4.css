@@ -1,0 +1,15 @@
+a[href^="http"]{
+    color: #f70;
+}
+
+a[href$=".com"]{
+    color: #666;
+}
+
+a[target="_blank"]:after {
+    content: "⇱";
+    position: absolute;
+    display: inline-block;
+    padding: 0 10px;
+    transform: rotate(90deg);
+}

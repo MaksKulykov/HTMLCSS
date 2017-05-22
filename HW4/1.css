@@ -1,0 +1,27 @@
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin-top: 20px;
+    background-color: slateblue;
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: white;
+}
+
+li {
+    display: inline-block;
+    font-family: Impact;
+    font-size: xx-large;
+    width: 150px;
+    text-align: center;
+    margin-right: -4px;
+}
+
+li:hover {
+    background-color: lightgrey;
+}
+
+li:hover a {
+    color: #999999;
+}

@@ -1,0 +1,77 @@
+.red {
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 0 5px 2px 5px;
+    font-weight: bold;
+}
+
+.green {
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 0 5px 2px 5px;
+    font-weight: bold;
+}
+
+.blue {
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    padding: 0 5px 2px 5px;
+    font-weight: bold;
+}
+
+label:first-of-type {
+    color: red;
+    text-decoration: underline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+label {
+    color: green;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+label:last-of-type {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+#red:checked~.red {
+    display: none;
+}
+
+#blue:checked~.blue {
+    display: none;
+}
+
+#green:checked~.green {
+    display: none;
+}
+
+#red:checked~label:first-of-type {
+    color: rgba(255,0,0,0.3);
+}
+
+#green:checked~label[for="green"] {
+    color: rgba(0,255,0,0.3);
+}
+
+#blue:checked~label:last-of-type {
+    color: rgba(0,0,255,0.3);
+}
+
+input {
+    display: none;
+}

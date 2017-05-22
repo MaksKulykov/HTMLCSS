@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .menu ul {
+            display: none;
+        }
+
+        .menu.open ul {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="footballua" class="menu">
+    <span class="ukraine">My favorite Ukrainian football clubs</span>
+    <ul>
+        <li>Dynamo Kiev</li>
+        <li>Dnipro</li>
+        <li>Tavriya</li>
+    </ul>
+</div>
+<br>
+
+<div id="footballeng" class="menu">
+    <span class="england">My favorite English football clubs</span>
+    <ul>
+        <li>Liverpool</li>
+        <li>Leichester</li>
+        <li>Arsenal</li>
+    </ul>
+</div>
+<br>
+
+<div id="footballger" class="menu">
+    <span class="german">My favorite German football clubs</span>
+    <ul>
+        <li>Friburg</li>
+        <li>Dortmund</li>
+        <li>Levercusen</li>
+    </ul>
+</div>
+
+<script>
+    var menuElemOne = document.getElementById('footballua');
+    var titleElem = menuElemOne.querySelector('.ukraine');
+
+    titleElem.onclick = function() {
+        menuElemOne.classList.toggle('open');
+    };
+</script>
+
+<script>
+    var menuElemTwo = document.getElementById('footballeng');
+    var titleElem = menuElemTwo.querySelector('.england');
+
+    titleElem.onclick = function() {
+        menuElemTwo.classList.toggle('open');
+    };
+</script>
+
+<script>
+    var menuElemThree = document.getElementById('footballger');
+    var titleElem = menuElemThree.querySelector('.german');
+
+    titleElem.onclick = function() {
+        menuElemThree.classList.toggle('open');
+    };
+</script>
+
+</body>
+
+</html>

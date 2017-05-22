@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c43120c-82cc-4db9-9315-40efef73b1e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/1.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HW4/task1-horizontal-menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4/1.css" afterPath="$PROJECT_DIR$/HW4/1.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HW4/task1-horizontal-menu.html" afterPath="$PROJECT_DIR$/HW4/task1-horizontal-menu.html" />
     </list>
     <ignored path="HTMLCSS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task1-horizontal-menu.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task1-horizontal-menu.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HW4/task1-horizontal-menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="357">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HW4/1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="374">
+              <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -111,6 +110,7 @@
         <option value="$PROJECT_DIR$/HW3/7.html" />
         <option value="$PROJECT_DIR$/HW3/6.css" />
         <option value="$PROJECT_DIR$/HW4/task1-menu.html" />
+        <option value="$PROJECT_DIR$/HW4/task1-horizontal-menu.html" />
         <option value="$PROJECT_DIR$/HW4/1.css" />
       </list>
     </option>
@@ -341,7 +341,7 @@
       <workItem from="1478723083398" duration="738000" />
       <workItem from="1479219814058" duration="623000" />
       <workItem from="1481635274235" duration="689000" />
-      <workItem from="1495456855961" duration="6719000" />
+      <workItem from="1495456855961" duration="7110000" />
     </task>
     <task id="LOCAL-00001" summary="added one more row">
       <created>1474022359030</created>
@@ -459,7 +459,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117288000" />
+    <option name="totallyTimeSpent" value="117679000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -802,6 +802,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HW4/task1-horizontal-menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HW3/6.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -812,16 +820,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HW4/1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HW4/task1-horizontal-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="374">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding />
         </state>
       </provider>

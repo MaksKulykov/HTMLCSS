@@ -18,6 +18,11 @@ li {
     margin-right: -4px;
 }
 
+li:last-of-type {
+    float: right;
+    margin-right: 40px;
+}
+
 li:hover {
     background-color: lightgrey;
 }
@@ -25,3 +30,4 @@ li:hover {
 li:hover a {
     color: #999999;
 }
+

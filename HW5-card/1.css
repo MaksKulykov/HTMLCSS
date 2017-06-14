@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+    width: 300px;
+    border: 3px solid orange;
+    border-radius: 5px;
+}
+.head {
+    color: white;
+    background-color: orange;
+    text-align: center;
+    line-height: 40px;
+}
+.head p {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: x-large;
+}
+.body p:first-child {
+    text-align: center;
+    font-size: x-large;
+}
+.body p:last-child {
+    font-weight: 600;
+    font-size: 600%;
+    margin: -20px 0 30px 55px;
+}
+.body p:last-child:before {
+    content: '$';
+    position: relative;
+    font-size: x-large;
+    font-weight: 200;
+    bottom: 60px;
+}
+.body p:last-child:after {
+    content: 'Monthly';
+    position: relative;
+    font-size: large;
+    font-weight: 200;
+    bottom: -10px;
+}
+li:nth-child(2n) {
+    background: #f2f2de;
+}
+li:nth-child(2n-1) {
+    background: #ddebf7;
+}
+ul {
+    list-style: none;
+}
+li:nth-child(2n):before {
+    background: #f2f2de;
+    content: url("./1.png");
+}
+li:nth-child(2n-1):before {
+    background: #ddebf7;
+    content: url("./1.png");
+}
+li {
+    line-height: 35px;
+    vertical-align: middle;
+    margin: 1px 15px 0 -24px;
+    color: #9d9d9d;
+}
+li:before {
+    padding: 0 20px 0 30px;
+}
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px 72px 10px 72px;
+    margin: 0 15px 35px 15px;
+}
